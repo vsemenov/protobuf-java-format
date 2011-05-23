@@ -1,11 +1,9 @@
 #labels Featured
-= MVN Repository Reference =
-
+= Retrieving from Maven Central =
 {{{
-<repositories>
-  <repository>
-    <id>protobuf-java-format</id>
-    <url>http://protobuf-java-format.googlecode.com/svn/trunk/repo</url>
-  </repository>
-</repositories>
+<dependency>
+  <groupId>com.googlecode.protobuf-java-format</groupId>
+  <artifactId>protobuf-java-format</artifactId>
+  <version>${protobuf.java.format.version}</version>
+</dependency>
 }}}
